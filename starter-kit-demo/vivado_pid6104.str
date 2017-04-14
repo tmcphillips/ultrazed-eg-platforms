@@ -1,0 +1,178 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 6104
+
+Current time: 	4/13/17 11:14:02 PM PDT
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	tmcphill
+User home directory: C:/Users/tmcphill
+User working directory: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/tmcphill/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/tmcphill/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	214 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 431 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl' 176 Beta devices matching pattern found, 24 enabled. 
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 34 MB (+33255kb) [00:00:05]
+// [Engine Memory]: 408 MB (+275872kb) [00:00:05]
+// Tcl Message: open_project C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 513 MB. GUI used memory: 28 MB. Current time: 4/13/17 11:14:05 PM PDT
+// [Engine Memory]: 533 MB (+110087kb) [00:00:10]
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 41 MB (+5502kb) [00:00:16]
+// [Engine Memory]: 736 MB (+29512kb) [00:00:17]
+// [GUI Memory]: 49 MB (+6509kb) [00:00:17]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// Project name: starter-kit-demo; location: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo; part: xczu3eg-sfva625-1-i-es1
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 1006.051 ; gain = 359.980 
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 53 MB (+924kb) [00:00:19]
+// [GUI Memory]: 62 MB (+6914kb) [00:02:07]
+// [Engine Memory]: 779 MB (+5963kb) [00:02:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 33 MB. Current time: 4/13/17 11:16:05 PM PDT
+// Elapsed time: 198 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+// az:q (cd:JFrame): Create Block Design: addNotify
+// Elapsed time: 98 seconds
+setText(PAResourceAtoD.CreateNewDiagramDialog_DESIGN_NAME, "starter-kit-demo-design"); // ak:JTextField (JPanel:JComponent, az:q)
+// Elapsed time: 42 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:q)
+// HOptionPane Error: "The name 'starter-kit-demo-design' contains illegal characters. (Vivado)"
+selectButton("PAResourceAtoD.CreateNewDiagramDialog_INVALID_NAME_FOR_BLOCK_DESIGN_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, G:JDialog)
+// Elapsed time: 10 seconds
+setText(PAResourceAtoD.CreateNewDiagramDialog_DESIGN_NAME, "starter_kit_demo_design"); // ak:JTextField (JPanel:JComponent, az:q)
+setText(PAResourceAtoD.CreateNewDiagramDialog_DESIGN_NAME, "starter_kit_demo_design"); // ak:JTextField (JPanel:JComponent, az:q)
+// Elapsed time: 33 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:q)
+// 'H' command handler elapsed time: 192 seconds
+dismissDialog("Create Block Design"); // az:q (cd:JFrame)
+// TclEventType: LOAD_FEATURE
+// bt:g (cd:JFrame):  Create Block Design : addNotify
+// Tcl Message: create_bd_design "starter_kit_demo_design" 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 819 MB (+1046kb) [00:06:57]
+// Tcl Message: Wrote  : <C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/starter_kit_demo_design.bd>  
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 37 MB. Current time: 4/13/17 11:20:53 PM PDT
+// Tcl Message: create_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1033.762 ; gain = 18.164 
+dismissDialog("Create Block Design"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 65 MB (+182kb) [00:07:22]
+// [GUI Memory]: 71 MB (+3075kb) [00:07:27]
+// Elapsed time: 29 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, (String) null); // y:JideButton (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 77 MB (+1794kb) [00:08:58]
+// Elapsed time: 131 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "zy"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "zyn"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Zynq UltraScale+ MPSoC", 0, "Zynq UltraScale+ MPSoC", 0, false); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "zynq"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Zynq UltraScale+ MPSoC", 0, "Zynq UltraScale+ MPSoC", 0, false); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+// Elapsed time: 40 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Zynq UltraScale+ MPSoC", 0, "Zynq UltraScale+ MPSoC", 0, false); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // M:ab (JViewport:JComponent, ResizableWindow:JWindow)
+// bt:g (cd:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:zynq_ultra_ps_e:2.0 zynq_ultra_ps_e_0 
+// TclEventType: LOAD_FEATURE
+// HMemoryUtils.trashcanNow. Engine heap size: 902 MB. GUI used memory: 38 MB. Current time: 4/13/17 11:24:30 PM PDT
+// [Engine Memory]: 991 MB (+137297kb) [00:10:34]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1207.000 ; gain = 155.066 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Add IP"); // bt:g (cd:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 81 MB (+590kb) [00:11:53]
+// Elapsed time: 75 seconds
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // h:k (JPanel:JComponent, cd:JFrame)
+// PAPropertyPanels.initPanels (zynq_ultra_ps_e_0) elapsed time: 0.2s
+// s:q (cd:JFrame): Run Block Automation: addNotify
+// Elapsed time: 120 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:q)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Run Block Automation"); // s:q (cd:JFrame)
+// bt:g (cd:JFrame):  Run Block Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:zynq_ultra_ps_e -config {apply_board_preset "1" }  [get_bd_cells zynq_ultra_ps_e_0] 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1207.000 ; gain = 0.000 
+dismissDialog("Run Block Automation"); // bt:g (cd:JFrame)
+// Elapsed time: 212 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectButton(PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN, "save_rsb_design"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/starter_kit_demo_design.bd>  
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
