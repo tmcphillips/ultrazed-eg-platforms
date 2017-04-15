@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 13 23:13:48 2017
+# Process ID: 6104
+# Current directory: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9312 C:\Users\tmcphill\GitRepos\ultrazed-eg-platforms\starter-kit-demo\starter-kit-demo.xpr
+# Log file: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/vivado.log
+# Journal file: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.xpr
+create_bd_design "starter_kit_demo_design"
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:zynq_ultra_ps_e:2.0 zynq_ultra_ps_e_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:zynq_ultra_ps_e -config {apply_board_preset "1" }  [get_bd_cells zynq_ultra_ps_e_0]
+save_bd_design
