@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Fri Apr 14 23:35:52 2017">
+<application name="pa" timeStamp="Sat Apr 15 00:37:09 2017">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="c145312c14b040f59d88e5861ad54804" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -18,46 +18,69 @@ This means code written to parse this file will need to be revisited each subseq
 </item>
 <item name="Java Command Handlers">
 <property name="CreateBlockDesign" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="2" type="JavaHandler"/>
 <property name="EditUndo" value="5" type="JavaHandler"/>
 <property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenRSBHierarchyBlock" value="2" type="JavaHandler"/>
 <property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
-<property name="RegenerateRSBLayout" value="2" type="JavaHandler"/>
-<property name="SaveRSBDesign" value="3" type="JavaHandler"/>
+<property name="RecustomizeCore" value="2" type="JavaHandler"/>
+<property name="RegenerateRSBLayout" value="3" type="JavaHandler"/>
+<property name="SaveRSBDesign" value="4" type="JavaHandler"/>
+<property name="ShowAnswerRecord" value="1" type="JavaHandler"/>
+<property name="ShowProductGuide" value="1" type="JavaHandler"/>
 <property name="ShowView" value="1" type="JavaHandler"/>
-<property name="ValidateRSBDesign" value="3" type="JavaHandler"/>
+<property name="ValidateRSBDesign" value="4" type="JavaHandler"/>
 <property name="ViewLayoutCmd" value="1" type="JavaHandler"/>
 <property name="ZoomIn" value="2" type="JavaHandler"/>
 <property name="ZoomOut" value="2" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
+<property name="AbstractSearchablePanel_SHOW_SEARCH" value="1" type="GuiResourceData"/>
 <property name="AddressTreeTablePanel_ADDRESS_TREE_TABLE" value="5" type="GuiResourceData"/>
 <property name="BaseDialog_CANCEL" value="1" type="GuiResourceData"/>
-<property name="BaseDialog_OK" value="6" type="GuiResourceData"/>
-<property name="BoardInterfaceConnectionDialog_TREE_TABLE" value="2" type="GuiResourceData"/>
-<property name="BoardTreePanel_BOARD_TREE_PANEL" value="7" type="GuiResourceData"/>
+<property name="BaseDialog_OK" value="10" type="GuiResourceData"/>
+<property name="BoardInterfaceConnectionDialog_TREE_TABLE" value="4" type="GuiResourceData"/>
+<property name="BoardTreePanel_BOARD_TREE_PANEL" value="12" type="GuiResourceData"/>
 <property name="CmdMsgDialog_OPEN_MESSAGES_VIEW" value="1" type="GuiResourceData"/>
 <property name="CoreTreeTablePanel_CORE_TREE_TABLE" value="3" type="GuiResourceData"/>
 <property name="CreateNewDiagramDialog_DESIGN_NAME" value="3" type="GuiResourceData"/>
+<property name="CustomizeCoreDialog_CHOOSE_IP_LOCATION" value="2" type="GuiResourceData"/>
+<property name="CustomizeCoreDialog_DOCUMENTATION" value="3" type="GuiResourceData"/>
+<property name="CustomizeCoreDialog_IP_LOCATION" value="2" type="GuiResourceData"/>
 <property name="DockingHolder_FLOAT" value="2" type="GuiResourceData"/>
-<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="10" type="GuiResourceData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="23" type="GuiResourceData"/>
 <property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="1" type="GuiResourceData"/>
 <property name="GettingStartedView_CREATE_NEW_PROJECT" value="2" type="GuiResourceData"/>
-<property name="HToolBar_AUTOMATICALLY_SCROLL_TO_SELECTED_OBJECTS" value="1" type="GuiResourceData"/>
+<property name="HPopupTitle_CLOSE" value="1" type="GuiResourceData"/>
+<property name="HToolBar_AUTOMATICALLY_SCROLL_TO_SELECTED_OBJECTS" value="3" type="GuiResourceData"/>
+<property name="HTree_COLLAPSE_ALL" value="1" type="GuiResourceData"/>
 <property name="MainMenuMgr_EDIT" value="6" type="GuiResourceData"/>
 <property name="MainMenuMgr_FILE" value="6" type="GuiResourceData"/>
-<property name="MainMenuMgr_FLOW" value="12" type="GuiResourceData"/>
-<property name="MainMenuMgr_OPEN_BLOCK_DESIGN" value="7" type="GuiResourceData"/>
+<property name="MainMenuMgr_FLOW" value="14" type="GuiResourceData"/>
+<property name="MainMenuMgr_OPEN_BLOCK_DESIGN" value="9" type="GuiResourceData"/>
 <property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="1" type="GuiResourceData"/>
 <property name="MainMenuMgr_TOOLS" value="6" type="GuiResourceData"/>
 <property name="MainMenuMgr_WINDOW" value="6" type="GuiResourceData"/>
 <property name="MainWinMenuMgr_LAYOUT" value="4" type="GuiResourceData"/>
 <property name="MainWinMenuMgr_LOAD" value="1" type="GuiResourceData"/>
 <property name="PACommandNames_GENERAL_SETTINGS" value="1" type="GuiResourceData"/>
-<property name="PACommandNames_REGENERATE_LAYOUT" value="1" type="GuiResourceData"/>
-<property name="PACommandNames_SAVE_RSB_DESIGN" value="1" type="GuiResourceData"/>
-<property name="PACommandNames_VALIDATE_RSB_DESIGN" value="3" type="GuiResourceData"/>
+<property name="PACommandNames_OPEN_HIERARCHY_BLOCK" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_REGENERATE_LAYOUT" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_SAVE_RSB_DESIGN" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_SHOW_ANSWER_RECORD" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_SHOW_PRODUCT_GUIDE" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_VALIDATE_RSB_DESIGN" value="4" type="GuiResourceData"/>
 <property name="PACommandNames_ZOOM_IN" value="3" type="GuiResourceData"/>
 <property name="PACommandNames_ZOOM_OUT" value="2" type="GuiResourceData"/>
+<property name="PAViews_ADDRESS_EDITOR" value="1" type="GuiResourceData"/>
+<property name="PAViews_PROJECT_SUMMARY" value="1" type="GuiResourceData"/>
+<property name="PSSPanelClockingPage_TABBED_PANE" value="2" type="GuiResourceData"/>
+<property name="PSSPanelMainPage_SWITCH_TO_ADVANCED_MODE" value="3" type="GuiResourceData"/>
+<property name="PSSToolBar_SWITCH_TO_BLOCK_DESIGN_PAGE" value="7" type="GuiResourceData"/>
+<property name="PSSTreeTablePanelBuilder_ADV_CLK_TREE" value="8" type="GuiResourceData"/>
+<property name="PSSTreeTablePanelBuilder_CLK_TREE" value="10" type="GuiResourceData"/>
+<property name="PSSTreeTablePanelBuilder_GENERAL_TREE" value="21" type="GuiResourceData"/>
+<property name="PSSTreeTablePanelBuilder_MIO_TREE" value="10" type="GuiResourceData"/>
 <property name="PartChooser_BOARDS" value="2" type="GuiResourceData"/>
 <property name="PartChooser_BOARD_DISPLAY_NAME_CHOOSER" value="2" type="GuiResourceData"/>
 <property name="PartChooser_BOARD_REV_CHOOSER" value="1" type="GuiResourceData"/>
@@ -67,25 +90,27 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="RDICommands_PASTE" value="2" type="GuiResourceData"/>
 <property name="RDICommands_UNDO" value="1" type="GuiResourceData"/>
 <property name="RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION" value="1" type="GuiResourceData"/>
-<property name="RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION" value="1" type="GuiResourceData"/>
-<property name="SelectMenu_HIGHLIGHT" value="2" type="GuiResourceData"/>
-<property name="SignalTreePanel_SIGNAL_TREE_PANEL" value="3" type="GuiResourceData"/>
+<property name="RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION" value="3" type="GuiResourceData"/>
+<property name="SelectMenu_HIGHLIGHT" value="3" type="GuiResourceData"/>
+<property name="SignalTreePanel_SIGNAL_TREE_PANEL" value="19" type="GuiResourceData"/>
 <property name="SystemBuilderLayersView_LAYER_TREE" value="7" type="GuiResourceData"/>
 <property name="SystemBuilderLayersView_TABBED_PANE" value="2" type="GuiResourceData"/>
 <property name="SystemBuilderMenu_CREATE_INTERFACE_PORT" value="1" type="GuiResourceData"/>
+<property name="SystemBuilderMenu_IP_DOCUMENTATION" value="1" type="GuiResourceData"/>
 <property name="SystemBuilderView_ADD_IP" value="1" type="GuiResourceData"/>
 <property name="SystemBuilderView_BLOCK_DESIGN_OPTIONS" value="7" type="GuiResourceData"/>
-<property name="SystemBuilderView_EXPAND_COLLAPSE" value="5" type="GuiResourceData"/>
+<property name="SystemBuilderView_EXPAND_COLLAPSE" value="8" type="GuiResourceData"/>
+<property name="SystemBuilderView_ORIENTATION" value="1" type="GuiResourceData"/>
 <property name="SystemSignalsView_COLLAPSE_ALL" value="1" type="GuiResourceData"/>
 <property name="SystemSignalsView_EXPAND_ALL" value="1" type="GuiResourceData"/>
 <property name="SystemSignalsView_GROUP_BY_CLOCK_DOMAIN" value="6" type="GuiResourceData"/>
-<property name="SystemTreeView_SYSTEM_TREE" value="132" type="GuiResourceData"/>
-<property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="1" type="GuiResourceData"/>
+<property name="SystemTreeView_SYSTEM_TREE" value="140" type="GuiResourceData"/>
+<property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="3" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="9" type="GuiMode"/>
+<property name="GuiMode" value="10" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="8" type="TclMode"/>
+<property name="TclMode" value="9" type="TclMode"/>
 </item>
 </section>
 </application>
