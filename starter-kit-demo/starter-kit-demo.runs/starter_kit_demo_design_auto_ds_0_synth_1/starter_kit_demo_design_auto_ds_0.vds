@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Apr 15 17:12:18 2017
+# Process ID: 8208
+# Current directory: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/starter_kit_demo_design_auto_ds_0_synth_1
+# Command line: vivado.exe -log starter_kit_demo_design_auto_ds_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source starter_kit_demo_design_auto_ds_0.tcl
+# Log file: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/starter_kit_demo_design_auto_ds_0_synth_1/starter_kit_demo_design_auto_ds_0.vds
+# Journal file: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/starter_kit_demo_design_auto_ds_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl'
+200 Beta devices matching pattern found, 24 enabled.
+source starter_kit_demo_design_auto_ds_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 593.359 ; gain = 383.734
+INFO: [Synth 8-638] synthesizing module 'starter_kit_demo_design_auto_ds_0' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_auto_ds_0/synth/starter_kit_demo_design_auto_ds_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_top' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_axi_downsizer' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2380]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_b_downsizer' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1251]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_b_downsizer' (1#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1251]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen' (20#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo' (21#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized0' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized0' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized0' (21#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized0' (21#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer' (22#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_w_downsizer' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2016]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_w_downsizer' (23#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2016]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer__parameterized0' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized1' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized1' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized1' (23#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized1' (23#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer__parameterized0' (23#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_r_downsizer' [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1533]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_r_downsizer' (24#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1533]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_axi_downsizer' (25#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2380]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_top' (26#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-256] done synthesizing module 'starter_kit_demo_design_auto_ds_0' (27#1) [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_auto_ds_0/synth/starter_kit_demo_design_auto_ds_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:01:50 ; elapsed = 00:01:54 . Memory (MB): peak = 718.852 ; gain = 509.227
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:50 ; elapsed = 00:01:55 . Memory (MB): peak = 718.852 ; gain = 509.227
+INFO: [Device 21-403] Loading part xczu3eg-sfva625-1-i-es1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 1274.402 ; gain = 0.938
+Finished Constraint Validation : Time (s): cpu = 00:02:05 ; elapsed = 00:02:10 . Memory (MB): peak = 1274.402 ; gain = 1064.777
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:05 ; elapsed = 00:02:10 . Memory (MB): peak = 1274.402 ; gain = 1064.777
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:05 ; elapsed = 00:02:10 . Memory (MB): peak = 1274.402 ; gain = 1064.777
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:07 ; elapsed = 00:02:12 . Memory (MB): peak = 1274.402 ; gain = 1064.777
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:13 ; elapsed = 00:02:19 . Memory (MB): peak = 1274.402 ; gain = 1064.777
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------+-------------------------------------------------------------------------------+----------------+----------------------+------------+
+|Module Name            | RTL Object                                                                    | Inference      | Size (Depth x Width) | Primitives | 
++-----------------------+-------------------------------------------------------------------------------+----------------+----------------------+------------+
+|fifo_generator_v13_1_3 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 9               |            | 
+|fifo_generator_v13_1_3 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 26              |            | 
+|fifo_generator_v13_1_3 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 26              |            | 
++-----------------------+-------------------------------------------------------------------------------+----------------+----------------------+------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:34 ; elapsed = 00:02:41 . Memory (MB): peak = 1823.434 ; gain = 1613.809
+Finished Timing Optimization : Time (s): cpu = 00:02:38 ; elapsed = 00:02:45 . Memory (MB): peak = 1889.922 ; gain = 1680.297
+Finished Technology Mapping : Time (s): cpu = 00:02:39 ; elapsed = 00:02:46 . Memory (MB): peak = 1889.922 ; gain = 1680.297
+Finished IO Insertion : Time (s): cpu = 00:02:40 ; elapsed = 00:02:47 . Memory (MB): peak = 1889.922 ; gain = 1680.297
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:40 ; elapsed = 00:02:47 . Memory (MB): peak = 1889.922 ; gain = 1680.297
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:40 ; elapsed = 00:02:47 . Memory (MB): peak = 1889.922 ; gain = 1680.297
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:40 ; elapsed = 00:02:47 . Memory (MB): peak = 1889.922 ; gain = 1680.297
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:40 ; elapsed = 00:02:47 . Memory (MB): peak = 1889.922 ; gain = 1680.297
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:40 ; elapsed = 00:02:47 . Memory (MB): peak = 1889.922 ; gain = 1680.297
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |     8|
+|2     |LUT1     |    21|
+|3     |LUT2     |   104|
+|4     |LUT3     |   126|
+|5     |LUT4     |   163|
+|6     |LUT5     |    95|
+|7     |LUT6     |   385|
+|8     |RAM32M16 |     5|
+|9     |FDCE     |    69|
+|10    |FDPE     |    63|
+|11    |FDRE     |   747|
+|12    |FDSE     |     5|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:40 ; elapsed = 00:02:47 . Memory (MB): peak = 1889.922 ; gain = 1680.297
+synth_design: Time (s): cpu = 00:02:29 ; elapsed = 00:02:33 . Memory (MB): peak = 1889.922 ; gain = 1379.953

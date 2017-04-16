@@ -1,0 +1,488 @@
+
+*** Running vivado
+    with args -log starter_kit_demo_design_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source starter_kit_demo_design_wrapper.tcl -notrace
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl'
+200 Beta devices matching pattern found, 24 enabled.
+source starter_kit_demo_design_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_0_1_1/starter_kit_demo_design_axi_gpio_0_1.dcp' for cell 'starter_kit_demo_design_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_1_0_1/starter_kit_demo_design_axi_gpio_1_0.dcp' for cell 'starter_kit_demo_design_i/axi_gpio_1'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_2_0_1/starter_kit_demo_design_axi_gpio_2_0.dcp' for cell 'starter_kit_demo_design_i/axi_gpio_2'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_rst_ps8_0_100M_0_1/starter_kit_demo_design_rst_ps8_0_100M_0.dcp' for cell 'starter_kit_demo_design_i/rst_ps8_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_zynq_ultra_ps_e_0_0/starter_kit_demo_design_zynq_ultra_ps_e_0_0.dcp' for cell 'starter_kit_demo_design_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_xbar_0_1/starter_kit_demo_design_xbar_0.dcp' for cell 'starter_kit_demo_design_i/ps8_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_auto_ds_0/starter_kit_demo_design_auto_ds_0.dcp' for cell 'starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_auto_pc_0/starter_kit_demo_design_auto_pc_0.dcp' for cell 'starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xczu3eg-sfva625-1-i-es1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_0/gpio_io_i[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_3/starter_kit_demo_design_axi_gpio_0_1.edf:5148]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_0/gpio_io_i[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_3/starter_kit_demo_design_axi_gpio_0_1.edf:5155]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_0/gpio_io_i[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_3/starter_kit_demo_design_axi_gpio_0_1.edf:5162]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_0/gpio_io_i[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_3/starter_kit_demo_design_axi_gpio_0_1.edf:5169]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_0/gpio_io_i[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_3/starter_kit_demo_design_axi_gpio_0_1.edf:5176]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_0/gpio_io_i[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_3/starter_kit_demo_design_axi_gpio_0_1.edf:5183]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_0/gpio_io_i[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_3/starter_kit_demo_design_axi_gpio_0_1.edf:5190]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_0/gpio_io_i[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_3/starter_kit_demo_design_axi_gpio_0_1.edf:5197]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_1/gpio_io_o[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_5/starter_kit_demo_design_axi_gpio_1_0.edf:5156]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_1/gpio_io_o[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_5/starter_kit_demo_design_axi_gpio_1_0.edf:5163]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_1/gpio_io_o[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_5/starter_kit_demo_design_axi_gpio_1_0.edf:5170]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_1/gpio_io_o[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_5/starter_kit_demo_design_axi_gpio_1_0.edf:5177]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_1/gpio_io_o[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_5/starter_kit_demo_design_axi_gpio_1_0.edf:5184]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_1/gpio_io_o[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_5/starter_kit_demo_design_axi_gpio_1_0.edf:5191]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_1/gpio_io_o[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_5/starter_kit_demo_design_axi_gpio_1_0.edf:5198]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_1/gpio_io_o[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_5/starter_kit_demo_design_axi_gpio_1_0.edf:5205]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_2/gpio_io_i[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_7/starter_kit_demo_design_axi_gpio_2_0.edf:3443]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_2/gpio_io_i[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_7/starter_kit_demo_design_axi_gpio_2_0.edf:3450]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'starter_kit_demo_design_i/axi_gpio_2/gpio_io_i[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/.Xil/Vivado-18584-calypso-win/dcp_7/starter_kit_demo_design_axi_gpio_2_0.edf:3457]
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_zynq_ultra_ps_e_0_0/starter_kit_demo_design_zynq_ultra_ps_e_0_0.xdc] for cell 'starter_kit_demo_design_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_zynq_ultra_ps_e_0_0/starter_kit_demo_design_zynq_ultra_ps_e_0_0.xdc] for cell 'starter_kit_demo_design_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_0_1_1/starter_kit_demo_design_axi_gpio_0_1_board.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_0_1_1/starter_kit_demo_design_axi_gpio_0_1_board.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_0_1_1/starter_kit_demo_design_axi_gpio_0_1.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_0_1_1/starter_kit_demo_design_axi_gpio_0_1.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_rst_ps8_0_100M_0_1/starter_kit_demo_design_rst_ps8_0_100M_0_board.xdc] for cell 'starter_kit_demo_design_i/rst_ps8_0_100M/U0'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_rst_ps8_0_100M_0_1/starter_kit_demo_design_rst_ps8_0_100M_0_board.xdc] for cell 'starter_kit_demo_design_i/rst_ps8_0_100M/U0'
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_rst_ps8_0_100M_0_1/starter_kit_demo_design_rst_ps8_0_100M_0.xdc] for cell 'starter_kit_demo_design_i/rst_ps8_0_100M/U0'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_rst_ps8_0_100M_0_1/starter_kit_demo_design_rst_ps8_0_100M_0.xdc] for cell 'starter_kit_demo_design_i/rst_ps8_0_100M/U0'
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_1_0_1/starter_kit_demo_design_axi_gpio_1_0_board.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_1/U0'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_1_0_1/starter_kit_demo_design_axi_gpio_1_0_board.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_1/U0'
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_1_0_1/starter_kit_demo_design_axi_gpio_1_0.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_1/U0'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_1_0_1/starter_kit_demo_design_axi_gpio_1_0.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_1/U0'
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_2_0_1/starter_kit_demo_design_axi_gpio_2_0_board.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_2/U0'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_2_0_1/starter_kit_demo_design_axi_gpio_2_0_board.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_2/U0'
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_2_0_1/starter_kit_demo_design_axi_gpio_2_0.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_2/U0'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_2_0_1/starter_kit_demo_design_axi_gpio_2_0.xdc] for cell 'starter_kit_demo_design_i/axi_gpio_2/U0'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_zynq_ultra_ps_e_0_0/starter_kit_demo_design_zynq_ultra_ps_e_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_0_1_1/starter_kit_demo_design_axi_gpio_0_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_rst_ps8_0_100M_0_1/starter_kit_demo_design_rst_ps8_0_100M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_1_0_1/starter_kit_demo_design_axi_gpio_1_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_xbar_0_1/starter_kit_demo_design_xbar_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_axi_gpio_2_0_1/starter_kit_demo_design_axi_gpio_2_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_auto_ds_0/starter_kit_demo_design_auto_ds_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_auto_pc_0/starter_kit_demo_design_auto_pc_0.dcp'
+Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_auto_ds_0/starter_kit_demo_design_auto_ds_0_clocks.xdc] for cell 'starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/ip/starter_kit_demo_design_auto_ds_0/starter_kit_demo_design_auto_ds_0_clocks.xdc] for cell 'starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 11 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 5 instances
+
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 855.617 ; gain = 624.816
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg-es1'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg-es1'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.871 . Memory (MB): peak = 872.645 ; gain = 16.984
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 148c90610
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 6 inverter(s) to 443 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 21a6ab626
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1350.375 ; gain = 0.000
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 175 cells.
+Phase 2 Constant propagation | Checksum: 1c88c87bd
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1350.375 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 354 unconnected nets.
+INFO: [Opt 31-11] Eliminated 452 unconnected cells.
+Phase 3 Sweep | Checksum: 19f23361d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1350.375 ; gain = 0.000
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 1b1907e2d
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1350.375 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1350.375 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1b1907e2d
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1350.375 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1b1907e2d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1350.375 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+38 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1350.375 ; gain = 494.742
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 1350.375 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/starter_kit_demo_design_wrapper_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/starter_kit_demo_design_wrapper_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg-es1'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg-es1'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1350.375 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1350.375 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 666c734e
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:55 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: a397c6d3
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: a397c6d3
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+Phase 1 Placer Initialization | Checksum: a397c6d3
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: ee1c0513
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: ee1c0513
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1db6e8106
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 11b75016b
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 11b75016b
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 3.5 IO Cut Optimizer
+Phase 3.5 IO Cut Optimizer | Checksum: 14c97c4a9
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:01:00 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 3.6 Timing Path Optimizer
+Phase 3.6 Timing Path Optimizer | Checksum: 14c97c4a9
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:01:00 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 1105db493
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: cf930235
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: cf930235
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+Phase 3 Detail Placement | Checksum: cf930235
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=7.024. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: d4e715bd
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:01:03 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+Phase 4.1 Post Commit Optimization | Checksum: d4e715bd
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:01:03 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: d4e715bd
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:01:03 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 1a0946e0c
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 1b10de897
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1b10de897
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+Ending Placer Task | Checksum: 16133eac6
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+INFO: [Common 17-83] Releasing license: Implementation
+54 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:05 . Memory (MB): peak = 2556.375 ; gain = 1206.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.318 . Memory (MB): peak = 2556.375 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/starter_kit_demo_design_wrapper_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 2556.375 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.048 . Memory (MB): peak = 2556.375 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2556.375 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg-es1'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg-es1'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 1c1847b7 ConstDB: 0 ShapeSum: 796e4ac0 RouteDB: cbad584f
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 4383da28
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 19b7d027d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 19b7d027d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 19b7d027d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: 847de9f5
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:28 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: ce703dc0
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 2556.375 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=7.062  | TNS=0.000  | WHS=-0.054 | THS=-1.408 |
+
+Phase 2 Router Initialization | Checksum: daea8df2
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: dac5dfca
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:30 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 526
+ Number of Nodes with overlaps = 21
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 19c3bfc15
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:32 . Memory (MB): peak = 2556.375 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=6.294  | TNS=0.000  | WHS=0.041  | THS=0.000  |
+
+Phase 4.1 Global Iteration 0 | Checksum: 19c3bfc15
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:32 . Memory (MB): peak = 2556.375 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 19c3bfc15
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:32 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 19c3bfc15
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:32 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 19c3bfc15
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:32 . Memory (MB): peak = 2556.375 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 19c3bfc15
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:32 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 23631bb1d
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:33 . Memory (MB): peak = 2556.375 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=6.294  | TNS=0.000  | WHS=0.041  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 23631bb1d
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:33 . Memory (MB): peak = 2556.375 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 23631bb1d
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:33 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.311579 %
+  Global Horizontal Routing Utilization  = 0.435957 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1f03dbe0e
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1f03dbe0e
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1f03dbe0e
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=6.294  | TNS=0.000  | WHS=0.041  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1f03dbe0e
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 2556.375 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 2556.375 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+67 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:35 . Memory (MB): peak = 2556.375 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.407 . Memory (MB): peak = 2556.375 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/starter_kit_demo_design_wrapper_routed.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/starter_kit_demo_design_wrapper_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.runs/impl_1/starter_kit_demo_design_wrapper_methodology_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Command: report_power -file starter_kit_demo_design_wrapper_power_routed.rpt -pb starter_kit_demo_design_wrapper_power_summary_routed.pb -rpx starter_kit_demo_design_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+77 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2556.375 ; gain = 0.000
+Command: write_bitstream -force -no_partial_bitfile starter_kit_demo_design_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg-es1'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg-es1'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (RTSTAT-10) No routable loads - 21 net(s) have no routable loads. The problem bus(es) and/or net(s) are starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[1], starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[1], starter_kit_demo_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[1] (the first 15 of 21 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./starter_kit_demo_design_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+83 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 2624.770 ; gain = 68.395
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 15 17:19:23 2017...

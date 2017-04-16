@@ -6,14 +6,14 @@
 			CanDisplayChildGraph="true">
 		<Description>Composite Fileset</Description>
 		<Generation Name="SYNTHESIS"
-				State="STALE"
-				Timestamp="1492278700"/>
+				State="GENERATED"
+				Timestamp="1492301534"/>
 		<Generation Name="IMPLEMENTATION"
-				State="STALE"
-				Timestamp="1492278700"/>
+				State="GENERATED"
+				Timestamp="1492301534"/>
 		<Generation Name="SIMULATION"
-				State="STALE"
-				Timestamp="1492278700"/>
+				State="GENERATED"
+				Timestamp="1492301534"/>
 		<FileCollection Name="SOURCES"
 				Type="SOURCES">
 			<File Name="ip\starter_kit_demo_design_zynq_ultra_ps_e_0_0\starter_kit_demo_design_zynq_ultra_ps_e_0_0.xci"
@@ -156,6 +156,34 @@
 				<UsedIn Val="SYNTHESIS"/>
 				<UsedIn Val="IMPLEMENTATION"/>
 				<UsedIn Val="OUT_OF_CONTEXT"/>
+			</File>
+			<File Name="hw_handoff\starter_kit_demo_design.hwh"
+					Type="HwHandoff">
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="false"
+						IsStatusTracked="false"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="HW_HANDOFF"/>
+			</File>
+			<File Name="hw_handoff\starter_kit_demo_design_bd.tcl">
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="false"
+						IsStatusTracked="false"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="HW_HANDOFF"/>
+			</File>
+			<File Name="hdl\starter_kit_demo_design.hwdef">
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="false"
+						IsStatusTracked="false"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="HW_HANDOFF"/>
 			</File>
 		</FileCollection>
 	</CompositeFile>
