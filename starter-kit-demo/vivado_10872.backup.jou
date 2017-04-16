@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 14 23:42:55 2017
+# Process ID: 10872
+# Current directory: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3660 C:\Users\tmcphill\GitRepos\ultrazed-eg-platforms\starter-kit-demo\starter-kit-demo.xpr
+# Log file: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/vivado.log
+# Journal file: C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.xpr
+open_bd_design {C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.srcs/sources_1/bd/starter_kit_demo_design/starter_kit_demo_design.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_1
+apply_board_connection -board_interface "led_8bits" -ip_intf "axi_gpio_1/GPIO" -diagram "starter_kit_demo_design" 
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD" Clk "Auto" }  [get_bd_intf_pins axi_gpio_1/S_AXI]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_2
+apply_board_connection -board_interface "push_buttons_3bits" -ip_intf "axi_gpio_2/GPIO" -diagram "starter_kit_demo_design" 
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD" Clk "Auto" }  [get_bd_intf_pins axi_gpio_2/S_AXI]
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
