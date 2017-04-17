@@ -1,0 +1,11 @@
+23:36:30 INFO  : Registering command handlers for SDK TCF services
+23:36:30 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\tmcphill\GitRepos\ultrazed-eg-platforms\starter-kit-demo\starter-kit-demo.sdk\temp_xsdb_launch_script.tcl
+23:36:32 INFO  : XSCT server has started successfully.
+23:36:34 INFO  : Successfully done setting XSCT server connection channel  
+23:36:34 INFO  : Processing command line option -hwspec C:/Users/tmcphill/GitRepos/ultrazed-eg-platforms/starter-kit-demo/starter-kit-demo.sdk/starter_kit_demo_design_wrapper.hdf.
+23:36:34 INFO  : Successfully done setting SDK workspace  
+23:47:53 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\tmcphill\GitRepos\ultrazed-eg-platforms\starter-kit-demo\starter-kit-demo.sdk\temp_xsdb_launch_script.tcl
+23:47:54 INFO  : XSCT server has started successfully.
+23:48:02 INFO  : Successfully done setting XSCT server connection channel  
+23:48:02 INFO  : Successfully done setting SDK workspace  
+23:48:04 INFO  : Registering command handlers for SDK TCF services

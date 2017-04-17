@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sat Apr 15 23:30:16 2017">
+<application name="pa" timeStamp="Sat Apr 15 23:43:17 2017">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="c145312c14b040f59d88e5861ad54804" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -25,6 +25,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="EditUndo" value="5" type="JavaHandler"/>
 <property name="FileExit" value="1" type="JavaHandler"/>
 <property name="NewExportHardware" value="1" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="2" type="JavaHandler"/>
 <property name="NewProject" value="2" type="JavaHandler"/>
 <property name="OpenBlockDesign" value="1" type="JavaHandler"/>
 <property name="OpenProject" value="3" type="JavaHandler"/>
@@ -52,9 +53,9 @@ This means code written to parse this file will need to be revisited each subseq
 <item name="Gui Resources Info">
 <property name="AbstractSearchablePanel_SHOW_SEARCH" value="1" type="GuiResourceData"/>
 <property name="AddressTreeTablePanel_ADDRESS_TREE_TABLE" value="5" type="GuiResourceData"/>
-<property name="BaseDialog_CANCEL" value="14" type="GuiResourceData"/>
+<property name="BaseDialog_CANCEL" value="15" type="GuiResourceData"/>
 <property name="BaseDialog_CLOSE" value="1" type="GuiResourceData"/>
-<property name="BaseDialog_OK" value="15" type="GuiResourceData"/>
+<property name="BaseDialog_OK" value="16" type="GuiResourceData"/>
 <property name="BaseDialog_YES" value="1" type="GuiResourceData"/>
 <property name="BoardInterfaceConnectionDialog_TREE_TABLE" value="4" type="GuiResourceData"/>
 <property name="BoardTreePanel_BOARD_TREE_PANEL" value="12" type="GuiResourceData"/>
@@ -78,18 +79,19 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="21" type="GuiResourceData"/>
 <property name="GettingStartedView_CREATE_NEW_PROJECT" value="2" type="GuiResourceData"/>
 <property name="GettingStartedView_OPEN_PROJECT" value="3" type="GuiResourceData"/>
+<property name="GettingStartedView_RECENT_PROJECTS" value="1" type="GuiResourceData"/>
 <property name="HPopupTitle_CLOSE" value="2" type="GuiResourceData"/>
 <property name="HToolBar_AUTOMATICALLY_SCROLL_TO_SELECTED_OBJECTS" value="3" type="GuiResourceData"/>
 <property name="HTree_COLLAPSE_ALL" value="1" type="GuiResourceData"/>
 <property name="LogMonitor_MONITOR" value="7" type="GuiResourceData"/>
 <property name="MainMenuMgr_EDIT" value="6" type="GuiResourceData"/>
-<property name="MainMenuMgr_EXPORT" value="2" type="GuiResourceData"/>
-<property name="MainMenuMgr_FILE" value="12" type="GuiResourceData"/>
+<property name="MainMenuMgr_EXPORT" value="5" type="GuiResourceData"/>
+<property name="MainMenuMgr_FILE" value="18" type="GuiResourceData"/>
 <property name="MainMenuMgr_FLOW" value="16" type="GuiResourceData"/>
 <property name="MainMenuMgr_IMPORT" value="1" type="GuiResourceData"/>
 <property name="MainMenuMgr_OPEN_BLOCK_DESIGN" value="10" type="GuiResourceData"/>
-<property name="MainMenuMgr_OPEN_RECENT_FILE" value="4" type="GuiResourceData"/>
-<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="4" type="GuiResourceData"/>
+<property name="MainMenuMgr_OPEN_RECENT_FILE" value="7" type="GuiResourceData"/>
+<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="7" type="GuiResourceData"/>
 <property name="MainMenuMgr_TOOLS" value="8" type="GuiResourceData"/>
 <property name="MainMenuMgr_VIEW" value="2" type="GuiResourceData"/>
 <property name="MainMenuMgr_WINDOW" value="10" type="GuiResourceData"/>
@@ -108,6 +110,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PACommandNames_EXIT" value="1" type="GuiResourceData"/>
 <property name="PACommandNames_EXPORT_HARDWARE" value="1" type="GuiResourceData"/>
 <property name="PACommandNames_GENERAL_SETTINGS" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_LAUNCH_HARDWARE" value="2" type="GuiResourceData"/>
 <property name="PACommandNames_OPEN_HIERARCHY_BLOCK" value="2" type="GuiResourceData"/>
 <property name="PACommandNames_PROJECT_SUMMARY" value="1" type="GuiResourceData"/>
 <property name="PACommandNames_REGENERATE_LAYOUT" value="2" type="GuiResourceData"/>
@@ -182,9 +185,9 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="VerilogOptionsChooserPanel_SPECIFY_COMPILATION_OPTIONS_FOR_VERILOG" value="3" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="14" type="GuiMode"/>
+<property name="GuiMode" value="15" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="13" type="TclMode"/>
+<property name="TclMode" value="14" type="TclMode"/>
 </item>
 </section>
 </application>
